@@ -3,7 +3,7 @@
 Este proyecto es una práctica de DevOps en la que he creado una página web personal con despliegue automático usando **GitHub Actions** y **GitHub Pages**.
 
 ## 🚀 Características
-- Despliegue automático en cada push a `main`
+- Despliegue automático en cada push a `main`.
 - Página HTML5 + CSS3
 - Secciones: Inicio, Sobre mí, Proyectos, DevOps
 - Diseño responsive con Flexbox
