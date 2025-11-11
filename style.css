@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom right, #8ec5fc, #e0c3fc);
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+.galeria {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.proyecto {
+  flex: 1 1 200px;
+  background: white;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.proyecto:hover {
+  transform: scale(1.05);
+}
